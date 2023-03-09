@@ -25,6 +25,7 @@ of_file = open("temp.fa","w")
 #Getting the new name for the context
 out_file = fasta.split("/")[-1]
 out_name = out_file.split(".")[0]+".svg"
+out_png = out_file.split(".")[0]+".png"
 
 
 #Creating dictionaries
@@ -311,6 +312,7 @@ for type,coloring in type_b_color.items():
     x+=22
 
 
+surface.write_to_png(out_png)
 surface.finish()
 f_file.close()
 m_file.close()
