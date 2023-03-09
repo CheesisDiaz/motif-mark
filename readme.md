@@ -8,9 +8,12 @@ Create a python object-oriented code to visualize motifs on sequences.
 
 To run this code you require two files
 
-    - Motif file. This needs to contain all possible motif types, if a nucleotide can be either "t" or "c" will be represented with a "y". For example if a motif type is tcgt or tcgc can be represented as *ycgy*.
+    - Motif file. This needs to contain all possible motif types, 
+    if a nucleotide can be either "t" or "c" will be represented with a "y". 
+    For example if a motif type is tcgt or tcgc can be represented as *ycgy*.
 
-    - Sequence file. The sequence must be on a fasta file. The exon of the sequence must be indicated in capital letters.
+    - Sequence file. The sequence must be on a fasta file. 
+    The exon of the sequence must be indicated in capital letters.
 
 #### Packages ####
 
